@@ -17,7 +17,7 @@ spring:
 #            nodes: 192.168.1.242:7001
 #        password: 4767cb971b40a1300fa09b7f87b09d1c
 
-# [可选] WVP监听的HTTP端口, 网页和接口调用都是这个端口
+# [可选] IVP监听的HTTP端口, 网页和接口调用都是这个端口
 server:
     port: 18089
     # [可选] HTTPS配置， 默认不开启
