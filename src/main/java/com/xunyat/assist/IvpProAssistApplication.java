@@ -6,10 +6,10 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 
 @SpringBootApplication
 @EnableScheduling
-public class WvpProAssistApplication {
+public class IvpProAssistApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(WvpProAssistApplication.class, args);
+        SpringApplication.run(IvpProAssistApplication.class, args);
     }
 
 }
