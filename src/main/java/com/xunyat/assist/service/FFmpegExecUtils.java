@@ -62,7 +62,7 @@ public class FFmpegExecUtils implements InitializingBean{
         String ffprobePath = userSettings.getFfprobe();
         this.ffmpeg = new FFmpeg(ffmpegPath);
         this.ffprobe = new FFprobe(ffprobePath);
-        logger.info("wvp-pro辅助程序启动成功。 \n{}\n{} ", this.ffmpeg.version(), this.ffprobe.version());
+        logger.info("ivp-pro辅助程序启动成功。 \n{}\n{} ", this.ffmpeg.version(), this.ffprobe.version());
     }
 
 
